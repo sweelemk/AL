@@ -4,7 +4,7 @@ import {useIsFocused} from '@react-navigation/native';
 import AutoHeightImage from 'react-native-auto-height-image';
 import {Layout} from '../../components';
 import {getFiles} from '../../api/services/files.service';
-import {filterImages} from '../../helpers/helperFunc';
+import {filterData} from '../../helpers/helperFunc';
 import {FilesServiceType} from '../../api/services/interfaces/files.interface';
 
 const ImagesPage: React.FC = () => {
@@ -14,7 +14,7 @@ const ImagesPage: React.FC = () => {
   const getImages = async () => {
     try {
       const resp = await getFiles();
-      const filteredResp = filterImages(resp, 'image');
+      const filteredResp = filterData(resp, 'image');
       setImages(filteredResp);
     } catch (e) {
       console.warn(e);
