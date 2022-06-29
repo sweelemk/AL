@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {View, FlatList, StyleSheet, Dimensions} from 'react-native';
 import {useIsFocused} from '@react-navigation/native';
 import AutoHeightImage from 'react-native-auto-height-image';
-import {Layout} from '../../components';
+import {Empty, Layout} from '../../components';
 import {getFiles} from '../../api/services/files.service';
 import {filterData} from '../../helpers/helperFunc';
 import {FilesServiceType} from '../../api/services/interfaces/files.interface';
@@ -41,7 +41,9 @@ const ImagesPage: React.FC = () => {
           keyExtractor={item => item.name + item.id}
           renderItem={renderItem}
         />
-      ) : null}
+      ) : (
+        <Empty text="There is no any images yet." />
+      )}
     </Layout>
   );
 };

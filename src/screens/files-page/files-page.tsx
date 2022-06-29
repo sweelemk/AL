@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import { FlatList, StyleSheet, Text, View } from "react-native";
-import {Layout} from '../../components';
+import {FlatList, StyleSheet, Text, View} from 'react-native';
+import {Empty, Layout} from '../../components';
 import {useIsFocused} from '@react-navigation/native';
 import {FilesServiceType} from '../../api/services/interfaces/files.interface';
 import {getFiles} from '../../api/services/files.service';
@@ -37,7 +37,9 @@ const FilesPage: React.FC = () => {
           keyExtractor={item => item.name + item.id}
           renderItem={renderItem}
         />
-      ) : null}
+      ) : (
+        <Empty text="There is no any files yet." />
+      )}
     </Layout>
   );
 };
