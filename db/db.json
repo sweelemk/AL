@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "size": 328,
+      "fileCopyUri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/Library/Caches/31028328-4105-4A9B-AAC7-12B788E9EDED/addresses.csv",
+      "name": "addresses.csv",
+      "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/tmp/org.reactjs.native.example.atixlabs-Inbox/addresses.csv",
+      "type": "text/csv",
+      "id": 1
+    },
+    {
+      "size": 176,
+      "fileCopyUri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/Library/Caches/89737D4A-372D-40E6-8744-AAEC5C4FFA09/username.csv",
+      "name": "username.csv",
+      "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/tmp/org.reactjs.native.example.atixlabs-Inbox/username.csv",
+      "type": "text/csv",
+      "id": 2
+    }
+  ]
 }

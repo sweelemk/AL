@@ -6,7 +6,6 @@ interface EmptyInterface {
 }
 
 const Empty: React.FC<EmptyInterface> = ({text}) => {
-  console.log(text);
   return (
     <View style={styles.emptyBox}>
       <Text>{text}</Text>

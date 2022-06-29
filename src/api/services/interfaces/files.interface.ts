@@ -4,7 +4,9 @@ type MergeTypes<A, B> = {
   [key in keyof A]: key extends keyof B ? B[key] : A[key];
 } & B;
 
-export type FilesServiceType = MergeTypes<
-  {id?: string},
-  DocumentPickerResponse
->;
+type BaseFileType = {
+  id?: string;
+  total?: number;
+};
+
+export type FilesServiceType = MergeTypes<BaseFileType, DocumentPickerResponse>;
