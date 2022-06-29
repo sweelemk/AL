@@ -35,8 +35,7 @@ const UploadPage: React.FC = () => {
   const uploadFile = async (file: FilesServiceType) => {
     setLoading(true);
     try {
-      const resp = await addFile(file);
-      console.log(resp.data);
+      await addFile(file);
     } catch (e) {
       throw e;
     } finally {
