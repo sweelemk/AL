@@ -1,6 +1,6 @@
 import axios, {AxiosRequestConfig, AxiosInstance, AxiosResponse} from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_BASE;
+const BASE_URL = 'http://localhost:3005';
 const headers: Readonly<Record<string, string | boolean>> = {
   Accept: 'application/json',
   'Content-Type': 'application/json; charset=utf-8',

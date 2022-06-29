@@ -1,3 +1,20 @@
 {
-  "files": []
+  "files": [
+    {
+      "size": 66873,
+      "fileCopyUri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/503B48D4-6C49-4324-B10E-56B0DCF4090A/Library/Caches/FDA80A43-2D32-4B55-8F3A-3F3E0C8E4D01/IMG_0008.JPG",
+      "name": "IMG_0008.JPG",
+      "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/503B48D4-6C49-4324-B10E-56B0DCF4090A/tmp/org.reactjs.native.example.atixlabs-Inbox/IMG_0008.JPG",
+      "type": "image/jpeg",
+      "id": 1
+    },
+    {
+      "size": 176,
+      "fileCopyUri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/503B48D4-6C49-4324-B10E-56B0DCF4090A/Library/Caches/E1CC53BD-EEF3-42FB-82A2-8A65CB344367/username.csv",
+      "name": "username.csv",
+      "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/503B48D4-6C49-4324-B10E-56B0DCF4090A/tmp/org.reactjs.native.example.atixlabs-Inbox/username.csv",
+      "type": "text/csv",
+      "id": 2
+    }
+  ]
 }
