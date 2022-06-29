@@ -9,7 +9,8 @@ interface LayoutInterface {
 const Layout: React.FC<LayoutInterface> = ({children}) => {
   const insets = useSafeAreaInsets();
 
-  return <View style={{paddingTop: insets.top}}>{children}</View>;
+  // eslint-disable-next-line react-native/no-inline-styles
+  return <View style={{flex: 1, paddingTop: insets.top}}>{children}</View>;
 };
 
 export default Layout;
