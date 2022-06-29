@@ -39,6 +39,14 @@
       "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/tmp/org.reactjs.native.example.atixlabs-Inbox/IMG_0008.JPG",
       "type": "image/jpeg",
       "id": 6
+    },
+    {
+      "size": 385,
+      "fileCopyUri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/Library/Caches/F5551408-B100-4AA1-B781-8CD4DA8ED399/username-password-recovery-code.csv",
+      "name": "username-password-recovery-code.csv",
+      "uri": "file:///Users/andrey.kashkan/Library/Developer/CoreSimulator/Devices/D1179ADA-E7CA-42C0-B488-BAC1E525C922/data/Containers/Data/Application/E51C9C15-347F-4500-953E-2DA5FB1EA4F3/tmp/org.reactjs.native.example.atixlabs-Inbox/username-password-recovery-code.csv",
+      "type": "text/csv",
+      "id": 7
     }
   ]
 }
